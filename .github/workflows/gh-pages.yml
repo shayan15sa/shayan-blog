@@ -5,8 +5,7 @@ on:
     branches:
       - master
   pull_request:
-
-on: workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   deploy:
