@@ -21,3 +21,6 @@ menu:
     name: Blog
     url: /posts/
     weight: 20
+assets:
+  disableHLJS: true
+  favicon: "/assets/favicon.ico"
