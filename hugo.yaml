@@ -11,6 +11,8 @@ params:
   socialIcons:
     - name: email
       url: 'shay.sale86@gmail.com'
+  cover:
+    responsiveImages: false
 menu:
   main:
   - identifier: home
@@ -18,9 +20,27 @@ menu:
     url: /
     weight: 10
   - identifier: posts
-    name: Blog
+    name: Posts
     url: /posts/
     weight: 20
+  - identifier: categories
+    name: Categories
+    url: /categories/
+    weight: 20
+  - identifier: tags
+    name: Tags
+    url: /tags/
+    weight: 20
+  - identifier: search
+    name: Search
+    url: /search/
+    weight: 25
 assets:
   disableHLJS: true
   favicon: "/assets/favicon.ico"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

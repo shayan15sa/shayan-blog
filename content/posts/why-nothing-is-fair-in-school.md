@@ -3,6 +3,12 @@ title: 'Why Nothing Is Fair in School'
 date: 2024-03-02T01:03:53+03:30
 draft: false
 ShowToc: true
+
+tags: 
+- school
+- changes
+categories:
+- Problems
 ---
 # Intro
 hey, have you ever you think why if student arrived late would get punished but teachers not.
